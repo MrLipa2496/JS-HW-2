@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  padding: 16px;
+}
+
+.light-theme,
+.dark-theme {
+  padding: 20px;
+  width: 120px;
+}
+
+.light-theme {
+  background-color: antiquewhite;
+}
+
+.dark-theme {
+  color: white;
+  background-color: black;
+}

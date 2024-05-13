@@ -2,10 +2,6 @@
   box-sizing: border-box;
 }
 
-:root {
-  padding: 16px;
-}
-
 .light-theme,
 .dark-theme {
   padding: 20px;
@@ -19,4 +15,66 @@
 .dark-theme {
   color: white;
   background-color: black;
+}
+
+.header {
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 80px;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  width: 100px;
+  gap: 1.25rem;
+}
+
+.user-name {
+  font-size: 18px;
+  align-items: center;
+}
+
+.user-photo {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border: 1px solid gray;
+}
+
+.male {
+  border: 2px solid blue;
+}
+
+.female {
+  border: 2px solid pink;
+}
+
+.btn-wraper {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.log-btn,
+.reg-btn {
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.log-btn {
+  background-color: inherit;
+  border: 1px solid purple;
+}
+
+.reg-btn {
+  background-color: purple;
+  color: white;
 }
